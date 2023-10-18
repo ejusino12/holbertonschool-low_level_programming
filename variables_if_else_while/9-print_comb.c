@@ -11,13 +11,17 @@
 int main(void)
 {
 	int i;
-	for(i = 1; i < 10; i++)
+
+	for (i = 1; i < 10; i++)
 	{
+		if (i > 0)
+		{
 		putchar(',');
 		putchar(' ');
+
 		putchar(i + '0');
 	}
 
 	putchar('\n');
-	return (0);
+}
 }
