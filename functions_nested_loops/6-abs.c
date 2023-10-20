@@ -2,11 +2,11 @@
 
 /**
  * _abs - compute absolute value of a integer
- *@n: argumento
+ *@a: argumento
  * Return: the absolute value of and integer
  */
 int _abs(int a)
 {
-	
+
 	return (a * ((a > 0) - (a < 0)));
 }
