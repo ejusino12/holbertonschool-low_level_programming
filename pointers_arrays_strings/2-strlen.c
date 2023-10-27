@@ -1,19 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * _strlen - returns the length of a string
- *@s: returns the lenght of a script
- * Return: Always 0
+ * _strlen - returns the lenght of a string
+ * @s: variable
+ * Return: i
  */
 int _strlen(char *s)
 {
-	int lenght = 0;
+	int i = 0, len = 0;
 
-	while (*s != '\0')
+	while (s[i] != '\0')
 	{
-	lenght++;
-	s++;
+		i++;
+		len++;
 	}
-	return (0);
+	return (len);
 }
