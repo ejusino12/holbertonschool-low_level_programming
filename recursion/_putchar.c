@@ -2,6 +2,7 @@
 
 /**
  * _putchar - writes the character c to stdout
+ * _puts_recursion - prints a string
  * @c: The character to print
  *
  * Return: On success 1.
